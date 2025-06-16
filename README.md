@@ -1,10 +1,16 @@
-# 🎬 Movie Rating Bias Analysis
+# 🎬 Movie Rating Bias Explorer
 
-## Overview
-This project investigates potential **biases in movie ratings** across multiple platforms such as **Fandango, IMDB, Rotten Tomatoes, and Metacritic**. We explore inconsistencies, apply machine learning to predict rating deviations, and offer a live interactive **dashboard** built with Streamlit.
+This is a Streamlit app that analyzes movie rating bias across platforms like Fandango, IMDB, Rotten Tomatoes, and Metacritic.
 
-## 💡 Motivation
-Online ratings often influence viewer decisions. This project asks:  
-> "Do platforms like Fandango inflate their movie ratings compared to public sentiment?"
+## 🔍 Features
 
-## 📁 Project Structure
+- Dropdown to choose a movie
+- Display normalized ratings
+- Bar chart comparing platforms
+- EDA and regression notebooks included
+
+## 🚀 Run it Locally
+
+```bash
+pip install -r requirement.txt
+streamlit run app.py
