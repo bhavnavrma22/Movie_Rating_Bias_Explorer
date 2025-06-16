@@ -14,3 +14,8 @@ This is a Streamlit app that analyzes movie rating bias across platforms like Fa
 ```bash
 pip install -r requirement.txt
 streamlit run app.py
+
+🚀 [Try the Live App](https://movie-rating-bias-explorer.streamlit.app/)
+
+🧠 [Explore the Source Code](https://github.com/bhavnavrma22/Movie_Rating_Bias_Explorer)
+
